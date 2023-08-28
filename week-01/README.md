@@ -6,8 +6,8 @@
 
 ><p>Nama : Lukas Valentino<p>
 >Kelas : 3H<p>
->Prodi : D-IV Teknik Inormatika<p>
->Jurusan : Teknologi Inormasi<p>
+>Prodi : D-IV Teknik Informatika<p>
+>Jurusan : Teknologi Informasi<p>
 ><center> Politeknik Negeri Malang</center> 
 
 <br>
@@ -23,7 +23,7 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 ## 2.2 Melakukan instalasi Dart
 
 
-<center><img src = "docs/Images/dart.dev.PNG"></center>
+<center><img src = "docs/Images/dart.dev.png"></center>
 
 
 ## 2.2.1 Langkah-langkah Menginstall Dart
