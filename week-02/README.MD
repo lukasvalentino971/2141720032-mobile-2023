@@ -24,7 +24,7 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 
 ## 3.1 Tugas Praktikum
 
-## soal 1
+## SOAL 1
 Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!<p>
     <img src = "docs/soal1.png"><p>
 Output yang diminta:<p>
@@ -46,7 +46,7 @@ void main() {
 
 <br>
 
-## soal 2
+## SOAL 2
 Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
 
 **JAWAB** <br>
@@ -55,7 +55,7 @@ Pengetahuan tentang Dart memungkinkan pengembang untuk menguasai, menulis, dan m
 Jadi mempunyai peran penting dalam mengoptimalkan kode, mencegah kesalahan umum, dan memilih struktur data yang tepat. Selain itu, memahami Dart membantu pengembang untuk tetap terhubung dengan perkembangan terbaru dalam ekosistem Flutter, sehingga lebih siap mengikuti perubahan dan peningkatan dalam bahasa tersebut.
 <br>
 
-## soal 3
+## SOAL 3
 Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
 
 **JAWAB**<br>
@@ -66,7 +66,7 @@ Dart awalnya ditujukan untuk menggantikan JavaScript dalam pengembangan web, kem
 Kode Dart dapat dieksekusi dalam dua mode, yaitu kompilasi Just-In-Time (JIT) untuk pengembangan dan kompilasi Ahead-Of-Time (AOT) untuk performa yang lebih baik, dengan masing-masing mode memiliki keuntungan dan keterbatasan tersendiri.
 <br>
 
-## soal 4
+## SOAL 4
 Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel ! (Khusus soal ini kelompok berupa link google slide)
 
 Kumpulkan jawaban Anda di spreadsheet pada tautan yang telah disediakan di grup telegram. Untuk soal nomor 1 sampai 3 push repo GitHub Anda.
