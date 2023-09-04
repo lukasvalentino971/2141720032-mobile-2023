@@ -4,9 +4,9 @@
 
 
 ## **1.1 Data Mahasiswa**
-><center><img src = "docs/alvian.jpg" width ="100"></center>
+><center><img src = "docs/lukas_foto.jpg" width ="100"></center>
 
-><p>Nama : Alvian Nur Firdaus<p>
+><p>Nama : Lukas Valentino<p>
 >Kelas : 3H<p>
 >Prodi : D-IV Teknik Inormatika<p>
 >Jurusan : Teknologi Inormasi<p>
@@ -26,19 +26,30 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 
 ## soal 1
 Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!<p>
-    <img src = "docs/01.PNG"><p>
+    <img src = "docs/soal1.png"><p>
 Output yang diminta:<p>
-    <img src = "docs/02.PNG"><p>
+    <img src = "docs/output1.png"><p>
 
 **JAWAB**
+<br>
+
+```dart
+void main() {
+  for (int i = 18; i >= 9; i--) {
+    print('Nama saya adalah Fulan, sekarang berumur $i');
+  }
+}
+```
 
 <br>
 
 ## soal 2
 Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
 
-**JAWAB**
-
+**JAWAB** <br>
+Pengetahuan tentang Dart memungkinkan pengembang untuk menguasai, menulis, dan memahami kode Flutter dengan lebih baik. Hal ini juga mendukung dalam proses debugging, pemahaman konsep-konsep dasar pemrograman seperti pengaturan widget, manajemen state, dan routing, serta memberi kemampuan untuk menyesuaikan aplikasi Flutter sesuai kebutuhan dengan menulis kode Dart khusus.
+<br><br>
+Jadi mempunyai peran penting dalam mengoptimalkan kode, mencegah kesalahan umum, dan memilih struktur data yang tepat. Selain itu, memahami Dart membantu pengembang untuk tetap terhubung dengan perkembangan terbaru dalam ekosistem Flutter, sehingga lebih siap mengikuti perubahan dan peningkatan dalam bahasa tersebut.
 <br>
 
 ## soal 3
