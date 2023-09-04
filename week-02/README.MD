@@ -41,6 +41,9 @@ void main() {
 }
 ```
 
+Hasil Output
+ <img src = "docs/output-answer.png">
+
 <br>
 
 ## soal 2
