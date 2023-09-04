@@ -58,8 +58,12 @@ Jadi mempunyai peran penting dalam mengoptimalkan kode, mencegah kesalahan umum,
 ## soal 3
 Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
 
-**JAWAB**
-
+**JAWAB**<br>
+Dart dirancang untuk menggabungkan kelebihan dari bahasa tingkat tinggi dan fitur bahasa pemrograman terkini, termasuk produktivitas alat, manajemen memori, notasi tipe opsional, notasi tipe statis, dan portabilitas, yang semuanya mendukung pengembangan dalam framework Flutter yang sepenuhnya menggunakan Dart.
+<br><br>
+Dart awalnya ditujukan untuk menggantikan JavaScript dalam pengembangan web, kemudian berkembang menjadi bahasa fokus untuk pengembangan mobile, dengan perubahan besar dalam rilis Dart 2.0 pada akhir 2018, yang menawarkan performa terbaik, alat yang lebih baik, dan kekuatan serta fleksibilitas dalam bahasa pemrograman, menjadikannya pilihan utama untuk framework Flutter.
+<br><br>
+Kode Dart dapat dieksekusi dalam dua mode, yaitu kompilasi Just-In-Time (JIT) untuk pengembangan dan kompilasi Ahead-Of-Time (AOT) untuk performa yang lebih baik, dengan masing-masing mode memiliki keuntungan dan keterbatasan tersendiri.
 <br>
 
 ## soal 4
