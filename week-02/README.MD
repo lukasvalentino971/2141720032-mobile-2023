@@ -41,7 +41,7 @@ void main() {
 }
 ```
 
-Hasil Output <br><br>
+**Hasil Output** <br>
  <img src = "docs/output-answer.png">
 
 <br>
