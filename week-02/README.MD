@@ -52,7 +52,7 @@ Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita mengg
 **JAWAB** <br>
 Pengetahuan tentang Dart memungkinkan pengembang untuk menguasai, menulis, dan memahami kode Flutter dengan lebih baik. Hal ini juga mendukung dalam proses debugging, pemahaman konsep-konsep dasar pemrograman seperti pengaturan widget, manajemen state, dan routing, serta memberi kemampuan untuk menyesuaikan aplikasi Flutter sesuai kebutuhan dengan menulis kode Dart khusus.
 <br><br>
-Jadi mempunyai peran penting dalam mengoptimalkan kode, mencegah kesalahan umum, dan memilih struktur data yang tepat. Selain itu, memahami Dart membantu pengembang untuk tetap terhubung dengan perkembangan terbaru dalam ekosistem Flutter, sehingga lebih siap mengikuti perubahan dan peningkatan dalam bahasa tersebut.
+Jadi mempunyai peran penting dalam mengoptimalkan kode, mencegah kesalahan umum, dan memilih struktur data yang tepat. Selain itu, memahami Dart membantu pengembang untuk tetap terhubung dengan perkembangan terbaru dalam ekosistem Flutter.
 <br>
 
 ## SOAL 3
@@ -62,9 +62,6 @@ Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gun
 Dart dirancang untuk menggabungkan kelebihan dari bahasa tingkat tinggi dan fitur bahasa pemrograman terkini, termasuk produktivitas alat, manajemen memori, notasi tipe opsional, notasi tipe statis, dan portabilitas, yang semuanya mendukung pengembangan dalam framework Flutter yang sepenuhnya menggunakan Dart.
 <br><br>
 Dart awalnya ditujukan untuk menggantikan JavaScript dalam pengembangan web, kemudian berkembang menjadi bahasa fokus untuk pengembangan mobile, dengan perubahan besar dalam rilis Dart 2.0 pada akhir 2018, yang menawarkan performa terbaik, alat yang lebih baik, dan kekuatan serta fleksibilitas dalam bahasa pemrograman, menjadikannya pilihan utama untuk framework Flutter.
-<br><br>
-Kode Dart dapat dieksekusi dalam dua mode, yaitu kompilasi Just-In-Time (JIT) untuk pengembangan dan kompilasi Ahead-Of-Time (AOT) untuk performa yang lebih baik, dengan masing-masing mode memiliki keuntungan dan keterbatasan tersendiri.
-<br>
 
 ## SOAL 4
 Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel ! (Khusus soal ini kelompok berupa link google slide)
