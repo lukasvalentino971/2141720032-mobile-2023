@@ -119,17 +119,6 @@ Berikut adalah hasil screenshot kode program.<p>
 <img src = "docs/fixed-prak1-step3.png"><p>
 
 
-
->**Equality checking and type coercion**<p>
->Di JavaScript, pemeriksaan dua variable dapat menggunakan double "==" atau triple "===". Untuk double "==" hanya membandingkan nilainya saja, sedangkan triple "===" dibandingkan dengan tipe datanya. Contohnya dalam JavaScript, "7" == 7 akan bernilai true, tetapi "7" === 7 akan bernilai false. Ini bisa jadi sebuah bug jika Anda lupa dengan operator ini. Dart cukup menggunakan double "==" untuk membandingkan nilai sekaligus tipe datanya.<p>
-
-Berikut tambahan video materi terkait <p>
-- [Youtube Dart Conditional Expressions: Ternary Operator of Java. Dart Flutter Tutorial (klik)](https://www.youtube.com/watch?v=qNWcoc25Ex4)<p>
-- [Youtube Dart SWITCH and CASE conditional statements. Dart Tutorial for Flutter (klik)](https://www.youtube.com/watch?v=XwehKYcCHzY)<p>
-
------
-<br>
-
 ### **Praktikum 2: Menerapkan Perulangan "while" dan "do-while"**
 Selesaikan langkah-langkah praktikum berikut ini menggunakan DartPad di browser Anda.
 
@@ -147,8 +136,8 @@ while (counter < 33) {
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
 **JAWAB**<p>
-setelah saya melakukan eksekusi pada langkah q tersebut didapati eror seperti dibawah ini<p>
-<img src = "docs/praktikum2_01.PNG"><p>
+Terdapat beberapa masalah yang dapat menyebabkan error saat dieksekusi.<p>
+<img src = "docs/error-prak2-step2.png"><p>
 hal ini terjadi karena variabel counter tidak dideklarasikan atau diinisialisasi sebelumnya. Sehingga, jika  mencoba menjalankan kode tersebut, akan mendapatkan kesalahan karena counter tidak memiliki nilai awal yang jelas. Untuk menghindari kesalahan ini, perlu menginisialisasi counter sebelum menggunakannya dalam loop. dan berikut kode yang saya perbaiki beserta hasil outputnya
 
 ```dart
