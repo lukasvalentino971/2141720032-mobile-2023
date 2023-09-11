@@ -1,34 +1,30 @@
-void main() {
-  String nama = "Lukas Valentino";
-  String nim = "2141720032";
-  
-  print("Nama: $nama");
-  print("NIM: $nim");
-  print("Bilangan Prima dari 0 sampai 201:");
-  
-  for (int i = 0; i <= 201; i++) {
-    if (isPrime(i)) {
-      print(i);
-    }
-  }
+void main(List<String> args) {
+  findPrimeNumber();
 }
 
-bool isPrime(int number) {
-  if (number <= 1) {
-    return false;
-  }
-  if (number <= 3) {
-    return true;
-  }
-  if (number % 2 == 0 || number % 3 == 0) {
-    return false;
-  }
-  int i = 5;
-  while (i * i <= number) {
-    if (number % i == 0 || number % (i + 2) == 0) {
-      return false;
+void findPrimeNumber() {
+  int start = 0;
+  int n = 201;
+  String nama = "Maulana Arif Wijaya";
+  String nim = "2141720085";
+
+  for (int i = start; i <= n; i++) {
+    if (i == 0 || i == 1) {
+      continue;
     }
-    i += 6;
+
+    bool isPrime = true;
+
+    for (int j = 2; j <= i / 2; j++) {
+      if (i % j == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+
+    if (isPrime) {
+      print("Nama: $nama \nNIM: $nim");
+      print("bilangan prima: $i");
+    }
   }
-  return true;
 }
