@@ -316,4 +316,7 @@ void main() {
 
 sieveAlgoritm(int n) adalah fungsi yang mengimplementasikan algoritma Sieve of Eratosthenes untuk menemukan bilangan prima hingga n. Fungsi ini menerima satu argumen, yaitu n, yang merupakan batas atas untuk pencarian bilangan prima.
 
+Output :
+<img src = "docs/hasil-praktikum.png"><p>
+
 3. Kumpulkan berupa link commit repo GitHub pada tautan yang telah disediakan di grup Telegram!
