@@ -5,6 +5,8 @@
 
 
 ### **Data Mahasiswa**
+><center><img src = "docs/lukas_foto.jpg" width ="100"></center>
+
 
 
 ><p>Nama : Lukas Valentino<p>
