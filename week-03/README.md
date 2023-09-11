@@ -53,9 +53,35 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 <p>
 Terdapat beberapa masalah penulisan yang dapat menyebabkan error. </p>
 <img src = "docs/error-prak1-step2.png"><p>
+
+Terdapat beberapa masalah yaitu :
+
 - Menggunakan huruf besar untuk kata kunci If dan Else, tetapi dalam Dart, kata kunci ini harus ditulis dalam huruf kecil, yaitu if dan else.
+
 - Menggunakan Else If (dengan huruf besar) yang seharusnya ditulis sebagai else if (dengan huruf kecil).
 
+Dalam kondisi if, seharusnya membandingkan variabel test dengan "test1", sedangkan pada kode diatas membandingkannya dengan "test2" sesuai dengan nilai yang sudah diberikan pada variabel test.
+
+Berikut adalah kode yang diperbaiki
+```dart
+void main() {
+  String test = "test2";
+  if (test == "test1") {
+    print("Test1");
+  } else if (test == "test2") {
+    print("Test2");
+  } else {
+    print("Something else");
+  }
+
+  if (test == "test2") {
+    print("Test2 again");
+  }
+}
+```
+
+Berikut adalah hasil screenshot kode program.
+</p>
 <img src = "docs/fixed-prak1-step2.png"><p>
 
 ### **Langkah 3**
@@ -70,9 +96,9 @@ if (test) {
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
 
 **JAWAB**<p>
-berikut adalah hasil ekseuksi setelah menambahkan kode pada langkah 3 diatas<p>
-<img src = "docs/praktikum1_03.PNG"><p>
-hal ini terjadi karena  variabel test dua kali dalam fungsi main(), yang tidak diizinkan dalam Dart. Setiap variabel harus memiliki nama yang berbeda,  string "true" sebagai kondisi dalam if statement kedua bukan cara yang benar untuk melakukan pengecekan kebenaran dalam Dart, Selain itu, saya menggunakan perbandingan == untuk memeriksa nilai variabel string dengan nilai yang diharapkan. berikut adalah hasil perbaikan dari kode diatas
+berikut adalah hasil eksekusi setelah menambahkan kode pada langkah 3 diatas<p>
+<img src = "docs/error-prak1-step3.png"><p>
+Terdapat beberapa masalah dan error
 
 ```dart
 //praktikum 1
