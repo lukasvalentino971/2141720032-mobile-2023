@@ -98,29 +98,25 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 **JAWAB**<p>
 berikut adalah hasil eksekusi setelah menambahkan kode pada langkah 3 diatas<p>
 <img src = "docs/error-prak1-step3.png"><p>
-Terdapat beberapa masalah dan error
+Terdapat beberapa masalah dan error yaitu :
+
+- Menguji kondisi if menggunakan sebuah string "true". Namun, dalam Dart, kondisi dalam pernyataan if harus berupa ekspresi boolean (true atau false), bukan string. Oleh karena itu, akan terjadi error saat mencoba menguji string sebagai kondisi.
+- Selain itu, harus mengubah "true" ke boolean true jika Anda ingin mencetak pesan "Kebenaran" ketika kondisinya benar.
+
+Berikut adalah kode yang diperbaiki:
 
 ```dart
-//praktikum 1
-void main(){
-    String test = "test2";
-        if (test == "test1") {
-            print("Test1");
-            } else if (test == "test2") {
-                print("Test2");
-                } else {
-                    print("Something else");
-                    }
-        if (test == "test2") print("Test2 again");
-    
-    String test2 = "true";
-        if (test2 == "true") {
-            print("Kebenaran");
-    }
+void main() {
+  bool test = true; // Menggunakan boolean true
+  if (test) {
+    print("Kebenaran");
+  }
 }
 ```
-maka akan menghasilkan output seperti gambar dibawah ini<p>
-<img src = "docs/praktikum1_04.PNG"><p>
+Dalam kode yang diperbaiki, variabel test telah dideklarasikan sebagai boolean true, dan kode akan berfungsi dengan benar. Ini akan mencetak "Kebenaran" karena kondisi if terpenuhi.
+<br>
+Berikut adalah hasil screenshot kode program.<p>
+<img src = "docs/fixed-prak1-step3.png"><p>
 
 
 
