@@ -238,30 +238,30 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 
 **JAWAB**<p>
 Terdapat beberapa masalah yang perlu diperbaiki sebelum kode dapat dijalankan dengan benar<p>
-<img src = "docs/"><p>
-hal tersebut terjadi karena penggunaan If dan Else If harus diganti menjadi if dan else if dengan huruf kecil, penambahan kurung kurawal {} untuk mengelompokkan pernyataan di dalam blok if dan else if, gunakan huruf kecil index saat membandingkan nilai dalam pernyataan if dan else if. dan berikut hasil modifikasi kode programnya
+<img src = "docs/error-prak3-step3.png"><p>
+
+- Kesalahan dalam penulisan kata kunci "if" dan "else if" harus diawali dengan huruf kecil (if dan else if), bukan huruf besar seperti yang Anda gunakan.
+
+- Variabel Index harus dideklarasikan dan diinisialisasi sebelum digunakan dalam kondisi.
+
+- Kedua kondisi if dan else if yang Anda berikan memiliki logika yang bertentangan. Pertama, memeriksa apakah Index sama dengan 21 dan jika iya, maka break. Namun, dalam kondisi kedua, memeriksa apakah index lebih besar dari 1 atau kurang dari 7, dan jika iya, maka continue. Kondisi kedua akan selalu benar karena angka 21 memenuhi kedua kondisi tersebut. Kedua kondisi ini akan mengakibatkan program berhenti sebelum mencetak apa pun.
+
+Berikut adalah kode yang diperbaiki:
+
 
 ```dart
-void main() {
-  for (int index = 10; index < 27; index++) {
-    if (index == 21){
-      break;
-    }
-    else if (index > 1 && index < 7){
-      continue;
-    }
-    
-    print(index);
+void main(){
+  for (int Index = 1; Index <= 27; Index++) {
+    if (Index == 21) break;
+    else if (Index > 1 && Index < 7) continue;
+    print(Index);
   }
 }
+
 ```
-<img src = "docs/praktikum3_04.PNG"><p>
+<img src = "docs/fixed-prak3-step3.png"><p>
+- Perbaikan ini akan membuat program berfungsi dengan benar. Kode akan mencetak angka dari 1 hingga 27 kecuali angka 6 dan 21. Kode ini juga memastikan bahwa variabel Index dideklarasikan dan diinisialisasi sebelum digunakan dalam loop for.
 
-Berikut tambahan video materi terkait .<p>
-- [Youtube Dart FOR Loop and how it works internally. Dart Tutorial for Flutter(klik)](https://www.youtube.com/watch?v=BCiyJOb7X-w&t=4s)<p>
-
-----
-<br>
 
 ### **Tugas Praktikum**
 1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!<p>
