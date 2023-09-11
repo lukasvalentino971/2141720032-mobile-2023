@@ -1,6 +1,6 @@
 # Pemrograman Mobile
 
-## Laporan dan pengumpulan Jobsheet Pemrograman Mobile 2023
+## Laporan dan Pengumpulan Jobsheet Pemrograman Mobile 2023
 
 - Nama      : Lukas Valentino
 - NIM       : 2141720032
