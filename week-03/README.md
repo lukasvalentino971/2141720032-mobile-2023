@@ -172,20 +172,22 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 **JAWAB**<p>
 Terdapat masalah yang akan menyebabkan error jika dijalankan.<p>
 <img src = "docs/error-prak2-step3.png"><p>
-hal tersbut terjadi karena variabel counter tidak dideklarasikan atau diinisialisasi sebelumnya. berikut adalah hasil modifikasi kode programnya<p>
+Perlu mendeklarasikan dan menginisialisasi variabel counter sebelum menggunakannya, sama seperti yang telah saya sebutkan dalam langkah sebelumnya.<p>
+
+Berikut adalah kode yang diperbaiki:
 
 ```dart
-void main() {
-  int counter = 0; // Inisialisasi counter
-  
+void main(){
+  int counter = 0; // Inisialisasi variabel counter
   do {
     print(counter);
     counter++;
-    } while (counter < 77);
+  } while (counter < 77);
 }
+
 ```
-berikut adalah hasil outputnya<p>
-<img src = "docs/praktikum2_05.PNG"><p>
+Dengan tambahan inisialisasi variabel counter, kode tersebut akan berfungsi dengan baik. Itu akan mencetak angka dari 0 hingga 76 ke layar console.<p>
+<img src = "docs/fixed-prak2-step3.png"><p>
 
 
 Berikut tambahan video materi terkait Conditional Expressions dan Switch-Case statements.<p>
