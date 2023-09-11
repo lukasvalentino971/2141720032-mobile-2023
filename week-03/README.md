@@ -156,6 +156,7 @@ void main(){
 }
 ```
 <img src = "docs/fixed-prak2-step2.png"><p>
+Dengan demikian, kode tersebut akan berfungsi dengan baik. Itu akan mencetak angka dari 0 hingga 32 ke layar console.
 
 ### **Langkah 3**
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
@@ -169,8 +170,8 @@ do {
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
 
 **JAWAB**<p>
-setelah saya melakukan eksekusi kode diatas terjadi eror seperti gambar dibawah ini<p>
-<img src = "docs/praktikum2_04.PNG"><p>
+Terdapat masalah yang akan menyebabkan error jika dijalankan.<p>
+<img src = "docs/error-prak2-step3.png"><p>
 hal tersbut terjadi karena variabel counter tidak dideklarasikan atau diinisialisasi sebelumnya. berikut adalah hasil modifikasi kode programnya<p>
 
 ```dart
