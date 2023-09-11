@@ -1,5 +1,5 @@
 void main(){
-  int counter = 0; // Inisialisasi variabel counter
+  // int counter = 0; // Inisialisasi variabel counter
   // langkah 2
   // while (counter < 33) {
   //   print(counter);
@@ -7,6 +7,7 @@ void main(){
   // }
 
   //langkah3
+  int counter = 0;
   do {
   print(counter);
   counter++;
