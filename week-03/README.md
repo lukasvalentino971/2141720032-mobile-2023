@@ -221,8 +221,9 @@ void main(){
   }
 }
 ```
+
+Dengan perbaikan ini, kode akan berfungsi dengan baik. Itu akan mencetak angka dari 10 hingga 26 ke layar console
 <img src = "docs/praktikum3_02.PNG"><p>
-maka kode akan mencetak angka dari 10 hingga 26 karena loop akan berjalan selama index kurang dari 27.
 
 
 ### **Langkah 3**
@@ -236,8 +237,8 @@ print(index);
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
 
 **JAWAB**<p>
-setelah saya melakukan eksekusi pada kode program diatas didapati hasil output seperti berikut<p>
-<img src = "docs/praktikum3_03.PNG"><p>
+Terdapat beberapa masalah yang perlu diperbaiki sebelum kode dapat dijalankan dengan benar<p>
+<img src = "docs"><p>
 hal tersebut terjadi karena penggunaan If dan Else If harus diganti menjadi if dan else if dengan huruf kecil, penambahan kurung kurawal {} untuk mengelompokkan pernyataan di dalam blok if dan else if, gunakan huruf kecil index saat membandingkan nilai dalam pernyataan if dan else if. dan berikut hasil modifikasi kode programnya
 
 ```dart
