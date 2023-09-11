@@ -189,14 +189,6 @@ void main(){
 Dengan tambahan inisialisasi variabel counter, kode tersebut akan berfungsi dengan baik. Itu akan mencetak angka dari 0 hingga 76 ke layar console.<p>
 <img src = "docs/fixed-prak2-step3.png"><p>
 
-
-Berikut tambahan video materi terkait Conditional Expressions dan Switch-Case statements.<p>
-- [Youtube Dart Loops and Iterators: Loop Control Statements. Dart Flutter Tutorial  (klik)](https://www.youtube.com/watch?v=JuOHAd0LWPE&t=1s)<p>
-
-
-----
-<br>
-
 ### **Praktikum 3:  Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"**
 Selesaikan langkah-langkah praktikum berikut ini menggunakan DartPad di browser Anda.
 
@@ -213,14 +205,19 @@ for (Index = 10; index < 27; index) {
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
 **JAWAB**<p>
-setelah saya mengeksekusi kode pada langkah 1 tersebut didapati eror seperti gambar dibawah ini<p>
-<img src = "docs/praktikum3_01.PNG"><p>
-hal tersebut terjadi karena Deklarasi dan inisialisasi variabel index dengan tipe data int harus dimulai dengan huruf kecil (index bukan Index) untuk mengikuti konvensi penulisan dalam Dart, Pada bagian for, harus menambahkan ekspresi index++ untuk menambah nilai index setiap kali iterasi. Tanpa ini, loop tidak akan pernah berakhir, dan  akan mengalami loop tak terbatas. dan berikut hasil modifikasi kodenya
+Terdapat beberapa masalah yang dapat menyebabkan error saat dieksekusi.<p>
+<img src = "docs/error-prak3-step2.png"><p>
+
+- Variabel Index tidak dideklarasikan atau diinisialisasi sebelum digunakan.
+- Dalam loop for, tidak dapat melakukan peningkatan nilai variabel Index. Oleh karena itu, loop ini akan menjadi loop tak berujung, yang akan mengakibatkan program berhenti merespons atau hang.
+- Untuk memperbaiki kode tersebut, perlu mendeklarasikan dan menginisialisasi variabel Index, serta menambahkan langkah peningkatan nilai variabel Index dalam loop for. 
+
+Berikut adalah kode yang diperbaiki:
 
 ```dart
-void main() {
-  for (int index = 10; index < 27; index++) {
-    print(index);
+void main(){
+  for (int Index = 10; Index < 27; Index++) {
+    print(Index);
   }
 }
 ```
