@@ -138,19 +138,24 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 **JAWAB**<p>
 Terdapat beberapa masalah yang dapat menyebabkan error saat dieksekusi.<p>
 <img src = "docs/error-prak2-step2.png"><p>
-hal ini terjadi karena variabel counter tidak dideklarasikan atau diinisialisasi sebelumnya. Sehingga, jika  mencoba menjalankan kode tersebut, akan mendapatkan kesalahan karena counter tidak memiliki nilai awal yang jelas. Untuk menghindari kesalahan ini, perlu menginisialisasi counter sebelum menggunakannya dalam loop. dan berikut kode yang saya perbaiki beserta hasil outputnya
+Error terjadi karena ariabel counter tidak dideklarasikan atau diinisialisasi sebelum digunakan.
+Jadi perlu mendeklarasikan dan menginisialisasi variabel counter sebelum menggunakannya. Misalnya, bisa menambahkan baris berikut sebelum loop while:
 
 ```dart
-void main() {
-  int counter = 0; // Inisialisasi counter
+int counter = 0;
+```
+Kode lengkap yang diperbaiki akan menjadi:
+
+```dart
+void main(){
+  int counter = 0; // Inisialisasi variabel counter
   while (counter < 33) {
     print(counter);
     counter++;
   }
 }
 ```
-<img src = "docs/praktikum2_02.PNG"><p>
-<img src = "docs/praktikum2_03.PNG"><p>
+<img src = "docs/fixed-prak2-step2.png"><p>
 
 ### **Langkah 3**
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
