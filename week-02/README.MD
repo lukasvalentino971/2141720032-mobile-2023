@@ -10,7 +10,7 @@
 >Kelas : 3H<p>
 >Prodi : D-IV Teknik Inormatika<p>
 >Jurusan : Teknologi Inormasi<p>
-><center> Politeknik Negri Malang</center> 
+><center> Politeknik Negeri Malang</center> 
 
 <br>
 
