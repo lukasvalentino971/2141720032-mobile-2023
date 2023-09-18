@@ -9,7 +9,7 @@
 ><p>Nama : Lukas Valentino<p>
 >Kelas : 3H<p>
 >Prodi : D-IV Teknik Inormatika<p>
->Jurusan : Teknologi Inormasi<p>
+>Jurusan : Teknologi Informasi<p>
 ><center> Politeknik Negeri Malang</center> 
 
 <br>
