@@ -392,7 +392,7 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika
 **JAWAB**<p>
 terjadi eror seperti gambar dibawah<p>
 <img src = "docs/prak4-langkah5-run.png"><p>
-hal tersebut terjadi karena variable login tidak didefinisikan. Kemudian saya mengubahnya menjadi seperti berikut:
+hal tersebut terjadi karena variable login tidak didefinisikan.
 
 ```dart
 void main(){
@@ -421,8 +421,9 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collec
 
 **JAWAB**<p>
 Kode program diatas menghasilkan output seperti berikut<p>
-<img src = "docs/prak4-langkah6-run.png"><p>
-Pada contoh kode Dart tersebut, "collection for" digunakan untuk membuat daftar listOfStrings dengan mengulangi elemen-elemen dalam listOfInts dan menggabungkannya dengan tanda pagar (#). Hasilnya adalah listOfStrings berisi ['#1', '#2', '#3'], yang kemudian diperiksa apakah elemen kedua adalah '#2' menggunakan assert. Terakhir, isi dari listOfStrings dicetak ke konsol.
+<img src = "docs/prak4-langkah6-run.png">
+<p>
+Dalam contoh kode Dart tersebut, ekspresi "collection for" digunakan untuk membuat daftar listOfStrings dengan mengiterasi melalui elemen-elemen dalam listOfInts dan menggabungkannya dengan tanda pagar (#). Hasilnya adalah listOfStrings yang berisi ['#1', '#2', '#3']. Selanjutnya, kode memeriksa apakah elemen kedua dalam listOfStrings adalah '#2' menggunakan pernyataan assert. Terakhir, isi dari listOfStrings dicetak ke konsol.</p>
 
 ------
 <br>
