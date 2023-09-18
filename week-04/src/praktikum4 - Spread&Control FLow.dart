@@ -46,8 +46,14 @@ void main() {
 //   print(list4);
 //   print(list4.length);
 
-var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
-print(nav);
+// var promoActive = true;
+//   var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+//   print(nav);
+
+var nav2 = ['Home', 'Furniture', 'Plants', if (login case 'Manager') 'Inventory'];
+print(nav2);
+
+
 
   
 }
