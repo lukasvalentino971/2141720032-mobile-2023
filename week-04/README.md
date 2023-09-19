@@ -427,3 +427,261 @@ Dalam contoh kode Dart tersebut, ekspresi "collection for" digunakan untuk membu
 
 ------
 <br>
+
+## **Praktikum 5: Eksperimen Tipe Data Records**
+
+>Catatan: Tipe data Records mulai diperkenalkan pada Dart versi 3.0. Pastikan Anda sudah setup menggunakan Dart 3.0 atau yang lebih baru.
+
+Selesaikan langkah-langkah praktikum berikut ini menggunakan VS Code atau Code Editor favorit Anda.
+
+### **Langkah 1**
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
+```dart
+var record = ('first', a: 2, b: true, 'last');
+print(record)
+```
+
+### **Langkah 2**
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+**JAWAB**<p>
+Terjadi eror karena tidak adanya titik koma.  <p>
+<img src = "docs/prak5-langkah2-run-error.png"><p>
+<p>Kemudian saya memperbaiki kode tersebut.
+</p>
+<img src = "docs/prak5-langkah2-run-fix.png">
+
+### **Langkah 3**
+Tambahkan kode program berikut di luar scope void main(), lalu coba eksekusi (Run) kode Anda.
+
+```dart
+(int, int) tukar((int, int) record) {
+  var (a, b) = record;
+  return (b, a);
+}
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi tukar() di dalam main() sehingga tampak jelas proses pertukaran value field di dalam Records.
+
+**JAWAB**<p>
+berikut setelah saya tambahkan kode diatas
+
+```dart
+(int, int) tukar((int, int) record) {
+  var (a, b) = record;
+  return (b, a);
+}
+
+void main() {
+  var record = (1, 2);
+  print(record);
+  print(tukar(record));
+}
+```
+berikut adalah hasil output setelah saya menabahkan kode diatas dan menghasilkan output seperti berikut<p>
+<img src = "docs/prak5-langkah3-run.png"><p>
+
+### **Langkah 4**
+Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
+
+```dart
+// Record type annotation in a variable declaration:
+(String, int) mahasiswa;
+print(mahasiswa);
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record mahasiswa di atas. Dokumentasikan hasilnya dan buat laporannya!
+
+**JAWAB**<p>
+Terjadi error seperti berikut.<p>
+<img src = "docs/prak5-langkah4-run-error.png>
+<p>
+Pada kode diatas terjadi error dikarenakan nilainya belum dinisialisasi.
+</p>
+
+```dart
+void main() {
+  (String, int) mahasiswa = ('Alvian Nur Firdaus', 2141720022);
+  print(mahasiswa);
+}
+```
+maka didapati hasil output seperti berikut <p>
+<img src = "docs/prak5-langkah4-run-fix.png"><p>
+
+### **Langkah 5**
+Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
+
+```dart
+var mahasiswa2 = ('first', a: 2, b: true, 'last');
+
+print(mahasiswa2.$1); // Prints 'first'
+print(mahasiswa2.a); // Prints 2
+print(mahasiswa2.b); // Prints true
+print(mahasiswa2.$2); // Prints 'last'
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
+
+**JAWAB**<p>
+Kemudian men <p>
+<img src = "docs/prak5-langkah5-run-fix.png"><p>
+kemudian saya melakukan modifikasi kode program dengan mengganti salah satu isi record dengan nama dan Nim saya menjadi seperti dibawah ini
+
+```dart
+void main() {
+  var mahasiswa2 = ('Alvian Nur Firdaus', a: 2141720022, b: true, 'last');
+
+  print(mahasiswa2.$1);
+  print(mahasiswa2.a);
+  print(mahasiswa2.b);
+  print(mahasiswa2.$2);
+}
+```
+Dan menghasilkan output seperti gambar dibawah ini <p>
+<img src = "docs/prak5-langkah5-modif.png><p>
+
+
+------
+<br>
+
+### **Tugas Praktikum**
+1. Silakan selesaikan Praktikum 1 sampai 5, lalu dokumentasikan berupa screenshot hasil pekerjaan Anda beserta penjelasannya!<p>
+
+    >**Jawab**<p>
+    > Sudah saya jawab dan jelaskan pada praktikum 1, 2, 3, 4 dan 5 tadi diatas atau juga bisa mengklik link dibawah kemudia diarahkan keatas secara otomatis
+    >- [Praktikum 1 (klik)](#praktikum-1-eksperimen-tipe-data-list)
+    >- [Praktikum 2 (klik)](#praktikum-2-eksperimen-tipe-data-set)
+    >- [Praktikum 3 (klik)](#praktikum-3-eksperimen-tipe-data-maps)
+    >- [Praktikum 4 (klik)](#praktikum-4-eksperimen-tipe-data-list-spread-dan-control-flow-operators)
+    >- [Praktikum 5 (klik)](#praktikum-5-eksperimen-tipe-data-records)<p>
+    > 
+<p>
+
+## Tugas Praktikum
+
+1. Silakan selesaikan Praktikum 1 sampai 5, lalu dokumentasikan berupa screenshot hasil pekerjaan Anda beserta penjelasannya!
+   - done
+2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
+   - Functions adalah sebuah blok kode yang dapat digunakan kembali. Sebuah fungsi dapat memiliki parameter atau tidak. Fungsi dapat mengembalikan nilai atau tidak. Fungsi dapat memiliki tipe kembalian atau tidak.
+3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
+   - Named Parameter, Named parameter adalah parameter yang diberi nama. Named parameter dapat diberikan nilai default. Named parameter dapat diberikan nilai default dengan menggunakan `=`.
+     - Required Named Parameter adalah named parameter yang tidak diberi nilai default.
+         - Contoh kode:
+           ```dart
+           void main() {
+             void greet(String name) {
+              print('Hello, $name!');
+              }
+              greet('Alice');  
+             }
+           ```
+           - Output:
+             ```dart
+             Hello, Alice!
+             ```
+      - Optional Named Parameter
+        - Optional named parameter adalah named parameter yang diberi nilai default.
+          - Penulisan:
+            ```dart
+            void main() {
+              void greet({String name = 'World'}) {
+                print('Hello, $name!');
+                }
+                // Memanggil fungsi greet dengan parameter opsional
+                greet(name: 'Bob'); // Output: Hello, Bob!
+                greet(); // Output: Hello, World!
+
+            }
+            ```
+            - Output:
+              ```dart
+              Hello, Bob!
+              Hello, World!
+              ```
+    - Positional Parameter
+      - Required Positional Parameter
+        - Required positional parameter adalah positional parameter yang tidak diberi nilai default.
+          - Penulisan:
+            ```dart
+            void main() {
+              String say(String from, String msg) {
+                var result = '$from says $msg';
+                return result;
+              }
+            }
+            ```
+            - Pemanggilan:
+              ```dart
+              say('Bob', 'Howdy');
+              ```
+      - Optional Positional Parameter
+        - Optional positional parameter adalah positional parameter yang diberi nilai default.
+          - Penulisan:
+            ```dart
+            void main() {
+              String say(String from, String msg, [String? device]) {
+                var result = '$from says $msg';
+                if (device != null) {
+                  result = '$result with a $device';
+                }
+                return result;
+              }
+            }
+            ```
+            - Pemanggilan:
+              ```dart
+              say('Bob', 'Howdy');
+              say('Bob', 'Howdy', 'smoke signal');
+              ```
+
+4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
+   - Fungsi yang dianggap sebagai objek first-class dapat disimpan dalam variabel, digunakan sebagai argumen saat memanggil fungsi lain, dan bahkan dikembalikan sebagai hasil dari fungsi lainnya.
+   - Contoh:
+     ```dart
+     void main() {
+       var say = (String from, String msg, [String? device]) {
+         var result = '$from says $msg';
+         if (device != null) {
+           result = '$result with a $device';
+         }
+         return result;
+       };
+
+       print(say('Bob', 'Howdy'));
+       print(say('Bob', 'Howdy', 'smoke signal'));
+     }
+     ```
+
+5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+   - Fungsi anonim adalah jenis fungsi yang tidak memiliki nama. Fungsi anonim dapat disimpan dalam variabel, digunakan sebagai argumen saat memanggil fungsi lain, dan bahkan dikembalikan sebagai hasil dari fungsi lainnya.
+   - Contoh:
+     ```dart
+     void main() {
+       var list = ['apples', 'bananas', 'oranges'];
+       list.forEach((item) {
+         print('${list.indexOf(item)}: $item');
+       });
+     }
+     ```
+
+6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
+   - Lexical scope adalah konsep dalam pemrograman yang mengatur bagaimana variabel dapat diakses dalam kode, dengan dasar pada struktur kode dan kurung kurawal. Ini berarti variabel hanya dapat diakses dalam cakupan di mana mereka didefinisikan, dari level terdalam hingga level tertinggi dalam struktur kode.
+   
+   - Sementara itu, lexical closure adalah kemampuan fungsi untuk tetap memiliki akses ke variabel-variabel dari cakupannya, bahkan ketika fungsi tersebut digunakan di luar cakupan asalnya. Ini berarti fungsi dapat "menangkap" variabel-variabel dari sekitarnya dan menggunakannya ketika dipanggil di tempat lain dalam kode. Jadi, lexical closure adalah tentang kemampuan fungsi untuk menjaga hubungan dengan variabel-variabel dari lingkungan di mana mereka dibuat, bahkan saat digunakan di lokasi yang berbeda.
+
+7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
+   - Untuk membuat return multiple value di Functions, kita dapat menggunakan `Record`.
+   - Contoh:
+     ```dart
+      (String, int) getData() {
+        return ('Lukas Valentino', 2141720032);
+      }
+
+     void main() {
+       var (nama, nim) = getData();
+
+       print(nama);
+       print(nim);
+     }
+     ```
