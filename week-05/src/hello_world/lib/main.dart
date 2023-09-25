@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/date_time_pickers.dart';
+import 'package:hello_world/basic_widgets/dialog_widget.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
 import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/input_selection_widget.dart';
+import 'package:hello_world/basic_widgets/loading_cupertino.dart';
+import 'package:hello_world/basic_widgets/scaffold_widget.dart';
 import 'package:hello_world/basic_widgets/text_widget.dart';
 
 void main() {
@@ -107,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const MyImageWidget(),
+            const MyDateTimePickers(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
