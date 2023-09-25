@@ -90,14 +90,14 @@ Saya sebelumnya sudah membuat repository untuk mata kuliah Pemrograman Mobile de
 ### **Langkah 11**
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
 
-<img src = "docs/praktikum2_11.PNG"><p>
+<img src = "docs/5-1.png"><p>
 
 >**Perhatian:** <p> Proses Run atau kompilasi untuk pertama kali akan memakan waktu cukup lama (3-5 menit). Namun, proses kompilasi berikutnya menjadi lebih cepat. Berbeda ketika melakukan kompilasi ke device, hal ini akan memakan waktu lebih lama lagi.
 
 ### **Langkah 12**
 Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
 
-<img src = "docs/praktikum2_12.PNG"><p>
+<img src = "docs/langkah 12.png"><p>
 
 >**Perhatian:**<p> Lakukan proses screenshot seperti pada Langkah 12 untuk setiap Laporan Praktikum yang Anda akan buat pada praktikum selanjutnya hingga pertemuan project final.
 
