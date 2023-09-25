@@ -129,7 +129,7 @@ class MyTextWidget extends StatelessWidget {
 
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
-<img src = "docs/praktikum3_1.PNG"><p>
+<img src = "docs/prak3-langkah1.png"><p>
 
 ### **Langkah 2 Image Widget**
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
