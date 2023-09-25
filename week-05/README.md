@@ -68,23 +68,7 @@ Melanjutkan dari praktikum 1, silakan selesaikan langkah-langkah berikut ini.
 >**Perhatian:** <p>Diasumsikan Anda telah mempunyai akun GitHub dan Anda telah memahami konsep dasar dalam bekerja menggunakan Git pada pertemuan pertama.<p>Praktikum ini dapat Anda lewati langsung ke langkah 11 jika sudah paham cara membuat laporan praktikum sesuai style yang Anda pilih.
 
 ### **Langkah 1 - 10**
-Saya sebelumnya sudah membuat repository untuk mata kuliah Pemrograman Mobile dengan rincian sebagai berikut :<p>
-<table>
-  <tr>
-    <th>Nama Repository</th>
-    <td>2141720022-mobile-2023</td>
-  </tr>
-  <tr>
-    <th>Dibuat Pada</th>
-    <td>28 Agustus 2023</td>
-  </tr>
-  <tr>
-    <th>Username Github</th>
-    <td>alvianfirdaus</td>
-  </tr>
-</table>
-
-<img src = "docs/praktikum2_1-10.PNG"><p>
+Saya sebelumnya sudah membuat repository untuk mata kuliah Pemrograman Mobile.
 
 
 ### **Langkah 11**
@@ -125,7 +109,7 @@ class MyTextWidget extends StatelessWidget {
   }
 }
 ```
->**Perhatian:**<p> Gantilah teks Fulan dengan nama lengkap Alvian Nur Firdaus.
+>**Perhatian:**<p> Gantilah teks Fulan dengan nama lengkap Lukas Valentino.
 
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
@@ -156,9 +140,9 @@ flutter:
      - logo_polinema.jpg
 ```
 menjadi seperti berikut<p>
-<img src = "docs/praktikum3_2a.PNG"><p>
+<img src = "docs/prak3-langkah2.png"><p>
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
-<img src = "docs/praktikum3_2.PNG"><p>
+<img src = "docs/prak3-langkah2-detail.png"><p>
 
 ----
 <br>
@@ -286,8 +270,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
-<img src = "docs/praktikum4_3.PNG"><p>
-<img src = "docs/praktikum4_3.gif"><p>
+<img src = "docs/scaffold.png"><p>
+<img src = "docs/scaffold_widget.gif"><p>
 
 ### **Langkah 4 Dialog Widget**
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.<p>Ubah isi kode main.dart seperti berikut.
@@ -351,8 +335,7 @@ showAlertDialog(BuildContext context) {
 }
 ```
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
-<img src = "docs/praktikum4_4.PNG"><p>
-<img src = "docs/praktikum4_4.gif"><p>
+<img src = "docs/show-alert.png"><p>
 
 ### **Langkah 5 Input dan Selection Widget**
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.<p> Contoh penggunaan TextField widget adalah sebagai berikut:
@@ -379,8 +362,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
-<img src = "docs/praktikum4_5.PNG"><p>
-<img src = "docs/praktikum4_5.gif"><p>
+<img src = "docs/text-field.png"><p>
 
 ### **Langkah 6 Date and Time Pickers**
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
@@ -461,8 +443,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
-<img src = "docs/praktikum4_6a.PNG"><p>
-<img src = "docs/praktikum4_6.gif"><p>
+<img src = "docs/date and time.png"><p>
+<img src = "docs/prak4-langkah6.gif"><p>
 
 ------
 <br>
@@ -483,8 +465,9 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 
     >**Jawab**<p>
     >pada praktikum ini saya membuat file widget tersendiri sesuai intruksi seperti berikut<p>
-    ><img src = "docs/jawabantugas2a.PNG"><p><p>
+    ><img src = "docs/tugas-praktikum2.png"><p><p>
     >kemudian saya melakukan modifikasi pada main dart seperti berikut
+
     ```dart
     import 'package:flutter/material.dart';
     import 'package:hello_world/basic_widgets/date_time_pickers.dart';
@@ -516,17 +499,15 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
     }
     ```
     >kemudian menghasilkan output seperti berikut<p>
-    ><img src = "docs/jawabantugas2b.PNG"><p><p>
-    ><img src = "docs/jawabantugas2.gif"><p><p>
+    ><img src = "docs/tugas-praktikum2b.png"><p><p>
 
 3. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!<p>
 
     >**Jawab**<p>
-    >Saya Sudah menyeleasikan tantangan tersebut dan saya simpan pada repositori saya berikut :<p>
+    >Saya telah menyeleasikan tantangan tersebut dan saya simpan pada repositori saya berikut :<p>
     >- [Repository codelabs : Your Firs Flutter app (klik)](/week-05/src/namer_app/)
     >kemudian codelab tersebut menghasilkan output seperti berikut<p>
-    >><img src = "docs/jawabantugas3.PNG"><p>
-    ><img src = "docs/jawabansoal3.gif"><p>
+    >><img src = "docs/namer_app.gif"><p>
     
 
 4. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) di browser dan perangkat fisik (device) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda. Jika mode developer di perangkat HP Anda belum aktif, silakan cari di internet cara mengaktifkannya!<p>
@@ -541,6 +522,4 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 
 5. Kumpulkan berupa link repository/commit GitHub Anda ke tautan spreadsheet yang telah disepakati oleh dosen!<p>
 
-    >**Jawab**<p>
-    >[Berikut Link Repository saya (klik)](https://github.com/alvianfirdaus/2141720022-mobile-2023/tree/main/week-05)<p>
 
