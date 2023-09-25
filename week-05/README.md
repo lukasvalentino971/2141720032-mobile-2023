@@ -50,14 +50,14 @@ Kemudian buat folder sesuai style laporan praktikum yang Anda pilih. Disarankan 
 ### **Langkah 3**
 Buat nama project flutter hello_world seperti berikut, lalu tekan Enter. Tunggu hingga proses pembuatan project baru selesai.
 
-<img src = "docs/praktikum1_4.PNG"><p>
+<img src = "docs/3.png"><p>
 
 >**Perhatian:**<p> Nama project ini harus lowercase (huruf kecil semua) tanpa menggunakan spasi. Untuk memisahkan kata, bisa menggunakan underline (garis bawah). Nama project tidak dapat diawali dengan angka atau karakter khusus lain. Nama project ini bukan nama aplikasi yang akan tampil di Play Store atau App Store. Untuk nama aplikasi, nanti dapat diatur ketika melakukan deployment.
 
-### **Langkah 3**
+### **Langkah 4**
 Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti berikut. Pesan akan tampil berupa "Your Flutter Project is ready!" artinya Anda telah berhasil membuat project Flutter baru.
 
-<img src = "docs/praktikum1_4a.PNG"><p
+<img src = "docs/4.png"><p
 
 -----
 <br>
