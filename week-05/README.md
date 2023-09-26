@@ -19,10 +19,10 @@
 ### **Tujuan Praktikum**
 Setelah menyelesaikan codelab ini Anda akan mampu untuk:
 
-1. Menjelaskan bagian-bagian dari project file flutter
-2. Menggunakan fitur hot reload dan restart
-3. Menjelaskan perbedaan stateful dan stateless widget
-4. Menerapkan widget-widget dasar flutter dan tema
+1. Menjelaskan bagian-bagian dari project file flutter. 
+2. Menggunakan fitur hot reload dan restart. 
+3. Menjelaskan perbedaan stateful dan stateless widget. 
+4. Menerapkan widget-widget dasar flutter dan tema. 
 
 <br>
 
