@@ -502,7 +502,7 @@ Pada kode diatas terjadi error dikarenakan nilainya belum dinisialisasi.
 
 ```dart
 void main() {
-  (String, int) mahasiswa = ('Alvian Nur Firdaus', 2141720022);
+  (String, int) mahasiswa = ('Lukas Valentino', 2141720032);
   print(mahasiswa);
 }
 ```
@@ -530,7 +530,7 @@ kemudian saya melakukan modifikasi kode program dengan mengganti salah satu isi 
 
 ```dart
 void main() {
-  var mahasiswa2 = ('Alvian Nur Firdaus', a: 2141720022, b: true, 'last');
+  var mahasiswa2 = ('Lukas Valentino', a: 2141720022, b: true, 'last');
 
   print(mahasiswa2.$1);
   print(mahasiswa2.a);
