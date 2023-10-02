@@ -372,6 +372,10 @@ class MyApp extends StatelessWidget {
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/text-field.png"><p>
 
+Berikut adalah tampilan mobile.
+<br>
+<img src = "docs/inputselection-mobile.mp4.jpg">
+
 ### **Langkah 6 Date and Time Pickers**
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 
