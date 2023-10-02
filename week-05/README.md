@@ -342,6 +342,7 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/show-alert.png"><p>
 <br>
 Tampilan pada mobile.
+<br>
 <img src = "docs/alert-mobile.jpg" width="300" height="700"><p>
 
 ### **Langkah 5 Input dan Selection Widget**
