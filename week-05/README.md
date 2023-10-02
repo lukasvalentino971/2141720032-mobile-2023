@@ -456,7 +456,9 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/date and time.png"><p>
-<img src = "docs/prak4-langkah6.gif"><p>
+<img src = "docs/prak4-langkah6.gif">
+Berikut ini adalah tampilan mobile.
+<img src = "docs/datetime-mobile.jpg">
 
 ------
 <br>
