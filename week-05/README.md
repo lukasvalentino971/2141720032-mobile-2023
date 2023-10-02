@@ -524,6 +524,9 @@ Berikut ini adalah tampilan mobile.
     >- [Repository codelabs : Your Firs Flutter app (klik)](/week-05/src/namer_app/)
     >kemudian codelab tersebut menghasilkan output seperti berikut<p>
     >><img src = "docs/namer_app.gif"><p>
+    >><br>
+    >>Berikut adalah tampilan mobile. <br>
+    >><img src = "docs/namerapp-mobile.jpg">
     
 
 4. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) di browser dan perangkat fisik (device) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda. Jika mode developer di perangkat HP Anda belum aktif, silakan cari di internet cara mengaktifkannya!<p>
