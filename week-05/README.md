@@ -374,7 +374,7 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 
 Berikut adalah tampilan mobile.
 <br>
-<img src = "docs/inputselection-mobile.mp4.jpg">
+<img src = "docs/inputselection-mobile.mp4.jpg" width="300" height="700">
 
 ### **Langkah 6 Date and Time Pickers**
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
@@ -458,7 +458,7 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/date and time.png"><p>
 <img src = "docs/prak4-langkah6.gif">
 Berikut ini adalah tampilan mobile.
-<img src = "docs/datetime-mobile.jpg">
+<img src = "docs/datetime-mobile.jpg" width="300" height="700">
 
 ------
 <br>
