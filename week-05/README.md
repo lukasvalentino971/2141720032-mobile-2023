@@ -272,6 +272,10 @@ class _MyHomePageState extends State<MyHomePage> {
 dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/scaffold.png"><p>
 <img src = "docs/scaffold_widget.gif"><p>
+<br>
+Berikut adalah tampilan mobile.
+<img src = "docs/increment-app-mobile.jpg">
+<img src = "docs/increment-app-mobile-video.mp4">
 
 ### **Langkah 4 Dialog Widget**
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.<p>Ubah isi kode main.dart seperti berikut.
