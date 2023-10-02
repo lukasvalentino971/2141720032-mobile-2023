@@ -342,7 +342,7 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/show-alert.png"><p>
 <br>
 Tampilan pada mobile.
-<img src = "docs/alert-mobile.jpg"><p>
+<img src = "docs/alert-mobile.jpg" width="300" height="700"><p>
 
 ### **Langkah 5 Input dan Selection Widget**
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.<p>. Contoh penggunaan TextField widget adalah sebagai berikut:
