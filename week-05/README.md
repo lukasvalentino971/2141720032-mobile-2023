@@ -274,6 +274,7 @@ dan berikut adalah hasil modifikasi kode main.dart diatas<p>
 <img src = "docs/scaffold_widget.gif"><p>
 <br>
 Berikut adalah tampilan mobile.
+<br>
 <img src = "docs/increment-app-mobile.jpg" width="300" height="700">
 
 ### **Langkah 4 Dialog Widget**
