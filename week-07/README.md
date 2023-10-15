@@ -322,3 +322,45 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 <br>
 
 
+### **Tugas Praktikum**
+1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!<p>
+
+    >**Jawab**<p>
+    > Sudah saya jawab dan jelaskan pada praktikum 1, 2, 3 dan 4 tadi diatas atau juga bisa mengklik link dibawah kemudia diarahkan keatas secara otomatis
+    >- [Praktikum 1 (klik)](#praktikum-1-membangun-layout-di-flutter)<p>
+    >- [Praktikum 2 (klik)](#praktikum-2-implementasi-button-row)<p>
+    >- [Praktikum 3 (klik)](#praktikum-3-implementasi-text-section)<p>
+    >- [Praktikum 4 (klik)](#praktikum-4-implementasi-image-section)<p>
+  
+  <table>
+  <tr>
+    <th><img src="docs/prak1.jpg"></th>
+    <th><img src="docs/prak2.jpg"></th>
+    <th><img src="docs/prak3-rev.jpg"></th>
+    <th><img src="docs/prak3.jpg"></th>
+  </tr>
+</table>
+
+<p>
+
+2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics<p>
+
+    >**Jawab**<p>
+
+### **Hasil output**
+
+<table>
+<tr>
+    <th>result</th>
+  </tr>
+  <tr>
+    <th><img src="docs/tugas.png"></th>
+  </tr>
+</table>
+
+
+3. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!<p>
+
+    >**Jawab**<p>
+    >[Berikut Link Repository saya (Disini)](https://github.com/lukasvalentino971/2141720032-mobile-2023/tree/main/week-07)<p>
+
