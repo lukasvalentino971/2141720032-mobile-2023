@@ -344,7 +344,7 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 <tr>
   </tr>
   <tr>
-    <th><img src="docs/tugas.png"></th>
+    <th><img src="docs/tugas.png" width="295" height="600"></th>
   </tr>
 </table>
 
