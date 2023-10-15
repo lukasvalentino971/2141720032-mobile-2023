@@ -141,7 +141,7 @@ Widget titleSection = Container(
 
 ### **Output dari hasill praktikum 01**<p>
 
-<img src = "docs/prak1.jpg"><p>
+<img src = "docs/prak1.jpg" width="280" height="600"><p>
 
 -----
 <br>
@@ -213,7 +213,7 @@ Tambahkan variabel buttonSection ke dalam body seperti berikut:<p>
 
 ### **Berikut adalah hasil dari Praktikum saya**<p>
 
-<img src = "docs/prak2.jpg"><p>
+<img src = "docs/prak2.jpg" width="280" height="600"><p>
 ----
 <br>
 
@@ -246,7 +246,7 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:<p>
 
 ### **Berikut adalah hasil dari Praktikum saya**<p>
 
-<img src = "docs/prak3-rev.jpg"><p>
+<img src = "docs/prak3-rev.jpg" width="280" height="600"><p>
 
 ----
 <br>
@@ -316,7 +316,7 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
     );
 ```
 ### **Berikut adalah hasil dari Praktikum saya**<p>
-<img src = "docs/prak3.jpg"><p>
+<img src = "docs/prak3.jpg" width="280" height="600"><p>
 
 ------
 <br>
@@ -327,19 +327,10 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 
     >**Jawab**<p>
     > Sudah saya jawab dan jelaskan pada praktikum 1, 2, 3 dan 4 tadi diatas atau juga bisa mengklik link dibawah kemudia diarahkan keatas secara otomatis
-    >- [Praktikum 1 (klik)](#praktikum-1-membangun-layout-di-flutter)<p>
-    >- [Praktikum 2 (klik)](#praktikum-2-implementasi-button-row)<p>
-    >- [Praktikum 3 (klik)](#praktikum-3-implementasi-text-section)<p>
-    >- [Praktikum 4 (klik)](#praktikum-4-implementasi-image-section)<p>
-  
-  <table>
-  <tr>
-    <th><img src="docs/prak1.jpg"></th>
-    <th><img src="docs/prak2.jpg"></th>
-    <th><img src="docs/prak3-rev.jpg"></th>
-    <th><img src="docs/prak3.jpg"></th>
-  </tr>
-</table>
+    >- [Praktikum 1 (disini)](#praktikum-1-membangun-layout-di-flutter)<p>
+    >- [Praktikum 2 (disini)](#praktikum-2-implementasi-button-row)<p>
+    >- [Praktikum 3 (disini)](#praktikum-3-implementasi-text-section)<p>
+    >- [Praktikum 4 (disini)](#praktikum-4-implementasi-image-section)<p>
 
 <p>
 
@@ -351,7 +342,6 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 
 <table>
 <tr>
-    <th>result</th>
   </tr>
   <tr>
     <th><img src="docs/tugas.png"></th>
