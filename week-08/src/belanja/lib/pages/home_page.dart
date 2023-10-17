@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Navigasi Toko Flutter'),
+        title: const Text('Shopping List'),
       ),
       body: Container(
         margin: const EdgeInsets.all(15),

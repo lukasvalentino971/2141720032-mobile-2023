@@ -8,7 +8,7 @@ class ItemPage extends StatelessWidget {
     final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Toko Item'),
+        title: const Text('Detail Item'),
       ),
       body: Container(
         margin: const EdgeInsets.all(15),
