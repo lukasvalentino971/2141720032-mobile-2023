@@ -1,4 +1,4 @@
-# **Laporan Praktikum**
+t# **Laporan Praktikum**
 # **Pertemuan 8**
 ### **Membangun Navigasi di Flutter**
 ------
@@ -137,7 +137,17 @@ return InkWell(
 )
 ```
 
-
+**Hasil Output**
+<table>
+<th>
+<tr>
+<img src ="docs/output-1_rev.png" width = 197>
+</tr>
+<tr>
+<img src ="docs/output-2_rev.png" width = 200>
+</tr>
+<th>
+</table>
 ### **Tugas Praktikum 2**
 1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator. Perbarui kode pada bagian Navigator menjadi seperti berikut.
 
