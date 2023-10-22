@@ -168,3 +168,11 @@ final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
 
 6. Selesaikan Praktikum Navigasi dan Rute tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!
+
+>Jawab 
+>Hasil Output praktikum
+
+
+<img src = 'docs/tugas-01.png' width = 197> <img src = 'docs/tugas-02.png' width = 197>
+
+<img src =>
