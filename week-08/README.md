@@ -175,4 +175,6 @@ final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
 
 <img src = 'docs/tugas-01.png' width = 197> <img src = 'docs/tugas-02.png' width = 197>
 
-<img src =>
+Hasil ouput berupa gif :
+
+<img src = 'docs/tugas-mobile-navigasi.gif'>
