@@ -78,4 +78,8 @@
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
+<center>
+<img src = 'docs/p2-1.gif' width = 197>
+</center>
+
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
