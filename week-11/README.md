@@ -52,3 +52,30 @@
 
 6. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
+
+### Tugas Praktikum 2: InheritedWidget
+
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+<center>
+<img src = 'docs/p2-1.gif' width = 197>
+</center>
+
+
+2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+>InheritedWidget adalah sebuah widget yang dapat digunakan untuk membagikan data atau informasi ke widget-widget lain di bawahnya dalam sebuah widget tree. InheritedWidget bekerja dengan cara mewariskan data atau informasi dari widget induknya ke widget-widget anak yang membutuhkannya.
+
+>Pada langkah 1, kita membuat sebuah kelas InheritedWidget bernama PlanProvider. Kelas ini memiliki dua properti, yaitu notifier dan child. Properti notifier menyimpan data Plan yang akan dibagikan ke widget-widget lain. Properti child menyimpan widget yang akan dirender oleh InheritedWidget ini.
+
+>Kelas PlanProvider mewarisi kelas InheritedNotifier. Kelas InheritedNotifier adalah subclass dari InheritedWidget yang memiliki kemampuan untuk mendeteksi perubahan pada data yang disimpannya. Ketika data yang disimpan oleh InheritedNotifier berubah, maka semua widget anak yang membutuhkan data tersebut akan di-rebuild.
+
+>Oleh karena itu, kita menggunakan InheritedNotifier pada langkah 1 karena kita ingin memastikan bahwa semua widget anak yang membutuhkan data Plan akan di-rebuild ketika data Plan berubah.
+
+3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+
+>Pada langkah 3, kita menambahkan dua method baru pada model class Plan. Method pertama bernama completedCount yang mengembalikan jumlah task yang telah selesai. Method kedua bernama completenessMessage yang mengembalikan pesan tentang status penyelesaian plan.
+
+>Penambahan kedua method ini dilakukan untuk memudahkan proses perhitungan dan menampilkan status penyelesaian plan. Dengan adanya kedua method ini, kita tidak perlu lagi melakukan looping untuk menghitung jumlah task yang telah selesai atau membuat string pesan secara manual.
+
+4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+
+5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
