@@ -41,6 +41,9 @@
 >Variabel plan dibuat konstanta agar nilainya tidak dapat diubah setelah deklarasinya. Hal ini dilakukan karena data rencana harus tetap konsisten selama aplikasi berjalan. Jika nilai variabel plan dapat diubah, maka data rencana yang ditampilkan juga akan berubah.
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+<center>
+<img src = 'docs/p1-04.gif' width = 197>
+</center>
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 >Jawaban : Method initState() pada langkah 11 digunakan untuk menginisialisasi variabel scrollController. Variabel ini digunakan untuk melacak posisi scroll dari ListView.
