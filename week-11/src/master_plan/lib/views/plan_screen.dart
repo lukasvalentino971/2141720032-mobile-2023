@@ -16,6 +16,8 @@ class PlanScreen extends StatefulWidget {
 class _PlanScreenState extends State<PlanScreen> {
   late ScrollController scrollController;
   Plan get plan => widget.plan;
+
+  get text => null;
   set plan(Plan plan) {
     setState(() {
       this.plan = plan;
@@ -110,33 +112,40 @@ class _PlanScreenState extends State<PlanScreen> {
             Plan currentPlan = plan;
             int planIndex = planNotifier.value
                 .indexWhere((p) => p.name == currentPlan.name);
-            planNotifier.value = List<Plan>.from(planNotifier.value)
-              ..[planIndex] = Plan(
-                name: currentPlan.name,
-                tasks: List<Task>.from(currentPlan.tasks)
-                  ..[index] = Task(
-                    description: task.description,
-                    complete: selected ?? false,
-                  ),
-              );
+
+            if (!currentPlan.tasks.isEmpty) {
+              planNotifier.value = List<Plan>.from(planNotifier.value)
+                ..[planIndex] = Plan(
+                  name: currentPlan.name,
+                  tasks: List<Task>.from(currentPlan.tasks)
+                    ..[index] = Task(
+                      description: text,
+                      complete: selected ?? false,
+                    ) as Task,
+                );
+            } else {
+              // The tasks list is empty, so do something else.
+            }
           }),
       title: TextFormField(
-        initialValue: task.description,
-        onChanged: (text) {
-          Plan currentPlan = plan;
-          int planIndex =
-              planNotifier.value.indexWhere((p) => p.name == currentPlan.name);
-          planNotifier.value = List<Plan>.from(planNotifier.value)
-            ..[planIndex] = Plan(
-              name: currentPlan.name,
-              tasks: List<Task>.from(currentPlan.tasks)
-                ..[index] = Task(
-                  description: text,
-                  complete: task.complete,
-                ),
-            );
-        },
-      ),
+          initialValue: task.description,
+          onChanged: (text) {
+            Plan currentPlan = plan;
+            int planIndex = planNotifier.value
+                .indexWhere((p) => p.name == currentPlan.name);
+
+            if (!currentPlan.tasks.isEmpty) {
+              planNotifier.value = List<Plan>.from(planNotifier.value)
+                ..[planIndex] = Plan(
+                  name: currentPlan.name,
+                  tasks: List<Task>.from(currentPlan.tasks)
+                    ..[index] = Task(
+                      description: text,
+                      complete: task.complete,
+                    ) as Task,
+                );
+            }
+          }),
     );
   }
 }

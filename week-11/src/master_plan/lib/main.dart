@@ -15,7 +15,7 @@ class MasterPlanApp extends StatelessWidget {
       child: MaterialApp(
         title: 'State management app',
         theme: ThemeData(
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.pink,
         ),
         home: const PlanCreatorScreen(),
       ),
