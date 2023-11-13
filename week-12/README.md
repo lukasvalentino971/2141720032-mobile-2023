@@ -31,8 +31,19 @@ Ketiklah kode seperti berikut ini.
 Soal 1
 Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
 
+Jawab : 
 ```dart
 return Scaffold(
       appBar: AppBar(
         title: const Text('Lukas Valentino'),
       ),
+```
+
+Soal 2
+Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini.
+![Alt text](image-3.png)
+
+Jawab :
+
+<img src="docs/Screenshot (151).png">
+<img src="docs/Screenshot (152).png">
