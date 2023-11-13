@@ -57,6 +57,23 @@ class _FuturePageState extends State<FuturePage> {
     }
   }
 
+  void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+    futureGroup.close();
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+      for (var element in value) {
+        total += element;
+      }
+      setState(() {
+        result = total.toString();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,17 +86,8 @@ class _FuturePageState extends State<FuturePage> {
             const Spacer(),
             ElevatedButton(
               child: Text('GO!'),
-              onPressed: () async {
-                try {
-                  final result = await getNumber();
-                  setState(() {
-                    this.result = result.toString();
-                  });
-                } catch (e) {
-                  setState(() {
-                    this.result = 'An error occurred';
-                  });
-                }
+              onPressed: () {
+                returnFG();
               },
             ),
             const Spacer(),
