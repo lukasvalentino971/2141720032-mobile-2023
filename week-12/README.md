@@ -61,7 +61,7 @@ Jawab :
 >Kode di atas menggunakan substring() untuk mengambil 450 karakter pertama dari respons API. Jika terjadi kesalahan saat mengambil respons API, maka kode tersebut akan menggunakan catchError() untuk menampilkan pesan kesalahan "An error occurred".
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 
-<img src="docs/tugas12-p1.gif">
+<img src="docs/tugas12-p1.gif" width = 197>
 
 
 ### Soal 4
@@ -82,7 +82,7 @@ Jawab :
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
 
-<img src="docs/tugas12-p2.gif">
+<img src="docs/tugas12-p2.gif" width = 197>
 
 ### Soal 5
 - Jelaskan maksud kode langkah 2 tersebut!
@@ -99,7 +99,8 @@ Jawab :
 
 <br>
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5"
-<img src="docs/tugas12-soal 5.gif">
+
+<img src="docs/tugas12-soal 5.gif"width = 197>
 
 ### Soal 6
 - Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
@@ -113,7 +114,7 @@ Jawab :
 >Kode ini menggunakan then() dan catchError() untuk menangani hasil dari method getNumber(). Jika tidak terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget. Jika terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget dan menampilkan pesan kesalahan.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
 
-<img src="docs/tugas12-soal 6.gif">
+<img src="docs/tugas12-soal 6.gif" width = 197>
 
 ### Soal 7
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7"
