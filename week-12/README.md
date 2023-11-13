@@ -62,3 +62,24 @@ Jawab :
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 
 <img src="docs/tugas12-p1.gif">
+
+
+Soal 4
+- Jelaskan maksud kode langkah 1 dan 2 tersebut!
+
+Langkah 1
+Kode di atas adalah kode Dart yang terdiri dari tiga fungsi asynchronous, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Ketiga fungsi ini mengembalikan nilai int dan menggunakan Future.delayed() untuk menunda eksekusi selama 3 detik.
+Berikut adalah penjelasan masing-masing fungsi:
+- returnOneAsync()
+Fungsi ini mengembalikan nilai 1 setelah 3 detik.
+- returnTwoAsync()
+Fungsi ini mengembalikan nilai 2 setelah 3 detik.
+- returnThreeAsync()
+Fungsi ini mengembalikan nilai 3 setelah 3 detik.
+
+Langkah 2
+Kode di atas adalah sebuah fungsi asynchronous bernama count() yang digunakan untuk menghitung jumlah dari tiga fungsi asynchronous lainnya, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Fungsi count() ini mengembalikan Future, yang berarti bahwa eksekusinya tidak akan memblokir kode lainnya.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
+
+<img src="docs/tugas12-p2.gif">
