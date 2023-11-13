@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
+import 'package:async/async.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,6 +35,19 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
 
+  late Completer completer;
+
+  Future getNumber() {
+    completer = Completer<int>();
+    calculate();
+    return completer.future;
+  }
+
+  Future calculate() async {
+    await Future.delayed(const Duration(seconds: 5));
+    completer.complete(42);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,16 +58,13 @@ class _FuturePageState extends State<FuturePage> {
         child: Column(children: [
           const Spacer(),
           ElevatedButton(
-            child: const Text('GO!'),
+            child: Text('GO!'),
             onPressed: () {
-              // setState(() {});
-              // getData().then((value) {
-              //   result = value.body.toString().substring(0, 450);
-              //   setState(() {});
-              // }).catchError((_) {
-              //   result = 'An error occurred';
-              //   setState(() {});
-              // });
+              getNumber().then((value) {
+                setState(() {
+                  result = value.toString();
+                });
+              });
               count();
             },
           ),
@@ -69,7 +80,7 @@ class _FuturePageState extends State<FuturePage> {
 
   Future<Response> getData() async {
     const authority = 'www.googleapis.com';
-    const path = '/books/v1/volumes/luIMAQAAMAAJ';
+    const path = '/books/v1/volumes/VX0crY5PkFYC';
     Uri url = Uri.https(authority, path);
     return http.get(url);
   }

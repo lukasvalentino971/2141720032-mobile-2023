@@ -28,7 +28,7 @@ Langkah 3: Buka file main.dart
 Ketiklah kode seperti berikut ini.
 ![Alt text](image-1.png)
 
-Soal 1
+### Soal 1
 Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
 
 Jawab : 
@@ -39,7 +39,7 @@ return Scaffold(
       ),
 ```
 
-Soal 2
+### Soal 2
 Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini.
 ![Alt text](image-3.png)
 
@@ -52,7 +52,7 @@ Jawab :
 <img src="docs/Screenshot (151).png">
 <img src="docs/Screenshot (152).png">
 
-Soal 3
+### Soal 3
 - Jelaskan maksud kode langkah 5 tersebut terkait `substring` dan `catchError`!
 
 Jawab : 
@@ -64,7 +64,7 @@ Jawab :
 <img src="docs/tugas12-p1.gif">
 
 
-Soal 4
+### Soal 4
 - Jelaskan maksud kode langkah 1 dan 2 tersebut!
 
 Langkah 1
@@ -83,3 +83,20 @@ Kode di atas adalah sebuah fungsi asynchronous bernama count() yang digunakan un
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
 
 <img src="docs/tugas12-p2.gif">
+
+### Soal 5
+- Jelaskan maksud kode langkah 2 tersebut!
+Jawab : 
+>Pada langkah 2, kita menambahkan variabel completer dan method getNumber() dan calculate() di class _FuturePageState.
+>1. Variabel completer
+>Variabel completer adalah variabel late dari tipe Completer<int>. Variabel ini digunakan untuk menyimpan hasil dari perhitungan angka 42.
+>2. Method getNumber()
+>Method getNumber() mengembalikan nilai dari variabel completer. Method ini memiliki dua langkah:
+>a. Inisialisasi variabel completer dengan nilai baru.
+>b. Memanggil method calculate() untuk menghitung angka 42.
+>3. Method calculate()
+>Method calculate() menggunakan Future.delayed() untuk menunggu 5 detik sebelum menyelesaikan perhitungan angka 42. Setelah 5 detik, method ini akan memanggil method completer.complete() untuk menyelesaikan perhitungan dan mengembalikan nilai 42 ke variabel completer
+
+<br>
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5"
+<img src="docs/tugas12-soal 5.gif">
