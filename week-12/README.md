@@ -67,18 +67,18 @@ Jawab :
 ### Soal 4
 - Jelaskan maksud kode langkah 1 dan 2 tersebut!
 
-Langkah 1
-Kode di atas adalah kode Dart yang terdiri dari tiga fungsi asynchronous, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Ketiga fungsi ini mengembalikan nilai int dan menggunakan Future.delayed() untuk menunda eksekusi selama 3 detik.
-Berikut adalah penjelasan masing-masing fungsi:
-- returnOneAsync()
-Fungsi ini mengembalikan nilai 1 setelah 3 detik.
-- returnTwoAsync()
-Fungsi ini mengembalikan nilai 2 setelah 3 detik.
-- returnThreeAsync()
-Fungsi ini mengembalikan nilai 3 setelah 3 detik.
+>Langkah 1
+>Kode di atas adalah kode Dart yang terdiri dari tiga fungsi asynchronous, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Ketiga fungsi ini mengembalikan nilai int dan menggunakan Future.delayed() untuk menunda eksekusi selama 3 detik.
+>Berikut adalah penjelasan masing-masing fungsi:
+>- returnOneAsync()
+>Fungsi ini mengembalikan nilai 1 setelah 3 detik.
+>- returnTwoAsync()
+>Fungsi ini mengembalikan nilai 2 setelah 3 detik.
+>- returnThreeAsync()
+>Fungsi ini mengembalikan nilai 3 setelah 3 detik.
 
-Langkah 2
-Kode di atas adalah sebuah fungsi asynchronous bernama count() yang digunakan untuk menghitung jumlah dari tiga fungsi asynchronous lainnya, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Fungsi count() ini mengembalikan Future, yang berarti bahwa eksekusinya tidak akan memblokir kode lainnya.
+>Langkah 2
+>Kode di atas adalah sebuah fungsi asynchronous bernama count() yang digunakan untuk menghitung jumlah dari tiga fungsi asynchronous lainnya, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Fungsi count() ini mengembalikan Future, yang berarti bahwa eksekusinya tidak akan memblokir kode lainnya.
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
 
@@ -100,3 +100,16 @@ Jawab :
 <br>
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5"
 <img src="docs/tugas12-soal 5.gif">
+
+### Soal 6
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+
+>Langkah 5
+>Pada langkah 5, kita mengganti isi dari method calculate(). Method calculate() sebelumnya menggunakan await Future.delayed(const Duration(seconds: 5)); untuk menunggu 5 detik sebelum menyelesaikan perhitungan angka 42. Namun, method ini tidak menangani kesalahan yang mungkin terjadi saat menunggu 5 detik.
+>Kode ini menggunakan try/catch untuk menangani kesalahan yang mungkin terjadi saat menunggu 5 detik. Jika tidak terjadi kesalahan, maka method ini akan memanggil method completer.complete() untuk menyelesaikan perhitungan dan mengembalikan nilai 42 ke variabel completer. Jika terjadi kesalahan, maka method ini akan memanggil method completer.completeError() untuk menyelesaikan perhitungan dan mengembalikan nilai {} ke variabel completer.
+
+>Langkah 6
+>Pada langkah 6, kita mengganti kode di method onPressed(). Method onPressed() sebelumnya menggunakan then() untuk menangani hasil dari method getNumber(). Namun, method ini tidak menangani kesalahan yang mungkin terjadi saat memanggil method getNumber().
+>Kode ini menggunakan then() dan catchError() untuk menangani hasil dari method getNumber(). Jika tidak terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget. Jika terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget dan menampilkan pesan kesalahan.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+<img src="docs/tugas12-soal 6.gif">

@@ -39,13 +39,22 @@ class _FuturePageState extends State<FuturePage> {
 
   Future getNumber() {
     completer = Completer<int>();
-    calculate();
+    calculate2();
     return completer.future;
   }
 
   Future calculate() async {
     await Future.delayed(const Duration(seconds: 5));
     completer.complete(42);
+  }
+
+  calculate2() async {
+    try {
+      await Future.delayed(const Duration(seconds: 5));
+      completer.complete(42);
+    } catch (_) {
+      completer.completeError({});
+    }
   }
 
   @override
@@ -55,25 +64,31 @@ class _FuturePageState extends State<FuturePage> {
         title: const Text('Lukas Valentino'),
       ),
       body: Center(
-        child: Column(children: [
-          const Spacer(),
-          ElevatedButton(
-            child: Text('GO!'),
-            onPressed: () {
-              getNumber().then((value) {
-                setState(() {
-                  result = value.toString();
-                });
-              });
-              count();
-            },
-          ),
-          const Spacer(),
-          Text(result),
-          const Spacer(),
-          const CircularProgressIndicator(),
-          const Spacer(),
-        ]),
+        child: Column(
+          children: [
+            const Spacer(),
+            ElevatedButton(
+              child: Text('GO!'),
+              onPressed: () async {
+                try {
+                  final result = await getNumber();
+                  setState(() {
+                    this.result = result.toString();
+                  });
+                } catch (e) {
+                  setState(() {
+                    this.result = 'An error occurred';
+                  });
+                }
+              },
+            ),
+            const Spacer(),
+            Text(result),
+            const Spacer(),
+            const CircularProgressIndicator(),
+            const Spacer(),
+          ],
+        ),
       ),
     );
   }
