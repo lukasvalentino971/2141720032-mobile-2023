@@ -1,0 +1,38 @@
+# Praktikum 1: Mengunduh Data dari Web Service (API)
+
+Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studio Code (VS Code) atau Android Studio atau code editor lain kesukaan Anda. Jawablah di laporan praktikum Anda pada setiap soal yang ada di beberapa langkah praktikum ini.
+
+Perhatian: Diasumsikan Anda telah berhasil melakukan setup environment Flutter SDK, VS Code, Flutter Plugin, dan Android SDK pada pertemuan pertama.
+
+### Langkah 1: Buat Project Baru
+Buatlah sebuah project flutter baru dengan nama books di folder src week-12 repository GitHub Anda.
+
+Kemudian Tambahkan dependensi http dengan mengetik perintah berikut di terminal.
+
+flutter pub add http
+
+Langkah 2: Cek file pubspec.yaml
+Jika berhasil install plugin, pastikan plugin http telah ada di file pubspec ini seperti berikut.
+
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  ```
+Jika Anda menggunakan macOS, Anda harus mengaktifkan fitur networking pada file macos/Runner/DebugProfile.entitlements dan macos/Runner/Release.entitlements dengan menambahkan kode berikut:
+![Alt text](image.png)
+
+
+Langkah 3: Buka file main.dart
+Ketiklah kode seperti berikut ini.
+![Alt text](image-1.png)
+
+Soal 1
+Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
+
+```dart
+return Scaffold(
+      appBar: AppBar(
+        title: const Text('Lukas Valentino'),
+      ),```
