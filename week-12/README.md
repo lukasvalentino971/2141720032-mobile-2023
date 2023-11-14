@@ -21,12 +21,14 @@ dependencies:
   http: ^1.1.0
   ```
 Jika Anda menggunakan macOS, Anda harus mengaktifkan fitur networking pada file macos/Runner/DebugProfile.entitlements dan macos/Runner/Release.entitlements dengan menambahkan kode berikut:
-![Alt text](image.png)
+
+<img src="docs/image.png">
 
 
 Langkah 3: Buka file main.dart
 Ketiklah kode seperti berikut ini.
-![Alt text](image-1.png)
+
+<img src="docs/image-1.png">
 
 ### Soal 1
 Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
@@ -41,11 +43,12 @@ return Scaffold(
 
 ### Soal 2
 Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini.
-![Alt text](image-3.png)
+
+<img src="docs/image-3.png">
 
 Kemudian cobalah akses di browser URI tersebut dengan lengkap seperti ini. Jika menampilkan data JSON, maka Anda telah berhasil. Lakukan capture milik Anda dan tulis di README pada laporan praktikum. Lalu lakukan commit dengan pesan "W12: Soal 2".
 
-![Alt text](image-4.png)
+<img src="docs/image-4.png">
 
 Jawab :
 
