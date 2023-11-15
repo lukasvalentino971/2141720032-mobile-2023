@@ -212,3 +212,15 @@ appBar: AppBar(
 
 - Silakan ganti dengan warna tema favorit Anda.
 
+### Soal 16
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+Jawab : 
+>Ketika tombol ditekan, warnanya akan berubah sesuai dengan warna yang telah ditetapkan pada widget ElevatedButton() di class navigation_second.dart. Hal ini dikarenakan setiap tombol memiliki fungsi Navigation.pop() yang memiliki parameter berupa context dan warna yang telah ditetapkan. Oleh karena itu, setiap tombol yang ditekan akan menampilkan warna yang berbeda-beda sesuai dengan nilai variabel warna.
+
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+
+<img src="docs/soal 16.gif" width = 197>
+
