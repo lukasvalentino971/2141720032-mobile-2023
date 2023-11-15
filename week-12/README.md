@@ -151,3 +151,26 @@ Jawab :
 ```dart
 appBar: AppBar(title: const Text('Current Location Lukas')),
 ```
+
+### Soal 12
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+Jawab : 
+```dart
+Future<Position> getPosition() async {
+    await Geolocator.requestPermission();
+    await Geolocator.isLocationServiceEnabled();
+    await Future.delayed(const Duration(seconds: 3));
+    Position? position = await Geolocator.getCurrentPosition();
+    return position;
+  }
+```
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+Jawab :
+>Karena package geolocator juga support di browser, sehingga koordinat GPS juga bisa didapatkan pada browser, beserta izinnya.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+
+<img src="docs/tugas12-soal 12.gif" width = 197>
+
