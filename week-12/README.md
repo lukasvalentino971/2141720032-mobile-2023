@@ -201,3 +201,14 @@ Jawab :
 
 <img src="docs/soal 14.gif" width = 197>
 
+### Soal 15
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+```dart
+appBar: AppBar(
+        title: const Text('Navigation First Screen Lukas'),
+      ),
+```
+
+- Silakan ganti dengan warna tema favorit Anda.
+

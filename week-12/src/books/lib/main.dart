@@ -1,3 +1,4 @@
+import 'package:books/navigation_first.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart';
@@ -18,10 +19,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LocationScreen(),
+      home: NavigationFirst(),
     );
   }
 }
