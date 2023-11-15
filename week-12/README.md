@@ -184,7 +184,7 @@ Jawab :
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
 
-<img src="docs/tugas12-soal 13.gif" width = 197>
+<img src="docs/soal 13 - rev.gif" width = 197>
 
 - Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
 
