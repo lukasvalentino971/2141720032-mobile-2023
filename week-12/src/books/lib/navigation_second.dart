@@ -23,27 +23,27 @@ class _NavigationSecondState extends State<NavigationSecond> {
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade500,
                 ),
-                child: const Text('Red'),
+                child: const Text('Yellow'),
                 onPressed: () {
-                  color = Color(0xFF860A35);
+                  color = Color.fromARGB(255, 119, 134, 10);
                   Navigator.pop(context, color);
                 }),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade500,
                 ),
-                child: const Text('Green'),
+                child: const Text('Brown'),
                 onPressed: () {
-                  color = Color(0xFF78866B);
+                  color = Color.fromARGB(255, 215, 169, 0);
                   Navigator.pop(context, color);
                 }),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade500,
                 ),
-                child: const Text('Blue'),
+                child: const Text('Purple'),
                 onPressed: () {
-                  color = Color(0xFF7493A0);
+                  color = Color.fromARGB(255, 234, 0, 255);
                   Navigator.pop(context, color);
                 }),
           ],

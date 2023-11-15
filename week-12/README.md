@@ -220,6 +220,8 @@ Jawab :
 
 - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
 
+<img src="docs/soal 16 ganti 3 warna.gif" width = 197>
+
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
 
 <img src="docs/soal 16.gif" width = 197>
