@@ -226,3 +226,18 @@ Jawab :
 
 <img src="docs/soal 16.gif" width = 197>
 
+
+### Soal 17
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+Jawab : 
+> Ketika Anda menekan tombol "Change Color" dan memilih warna pada dialog, layar akan mengalami perubahan pada warna latar belakang. Ini disebabkan oleh pembaruan nilai warna dalam fungsi _showColorDialog, diikuti dengan pembaruan widget menggunakan setState. Tindakan ini akan memicu pembangunan ulang widget dan mencerminkan perubahan warna yang telah dipilih pada layar.
+
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+<img src="docs/soal 17-rev warna.gif" width = 197>
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+
+<img src="docs/soal 17.gif" width = 197>
+

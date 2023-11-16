@@ -1,3 +1,4 @@
+import 'package:books/navigation_dialog.dart';
 import 'package:books/navigation_first.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
@@ -5,6 +6,7 @@ import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 import 'package:async/async.dart';
 import './geolocation.dart';
+import './navigation_second.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: NavigationFirst(),
+      home: const NavigationDialogScreen(),
     );
   }
 }
