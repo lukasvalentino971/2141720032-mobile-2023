@@ -84,6 +84,23 @@ Jawab :
 
 - Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
 
+### Soal 5
+- Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+
+Jawab : 
+
+>Listen:
+>1. Sifat Sinkronus-Asinkronus: Metode listen bersifat asinkronus, yang berarti bahwa eksekusi program dapat melanjutkan ke baris kode berikutnya tanpa menunggu pengiriman data ke stream selesai.
+>2. Fleksibilitas Handling: Anda dapat menggunakan metode listen untuk menentukan handler fungsi yang akan dijalankan setiap kali ada perubahan pada stream.
+>3. Non-blocking: Penggunaan listen memungkinkan eksekusi program untuk melanjutkan ke baris berikutnya tanpa harus menunggu setiap data diambil dari stream.
+
+> Await for:
+>1. Sifat Sinkronus: Metode await for bersifat sinkronus, yang berarti bahwa eksekusi program akan tetap menunggu hingga ada data yang tersedia di stream sebelum melanjutkan ke baris kode berikutnya.
+>2. Penggunaan Iterator: Penggunaan await for mirip dengan penggunaan iterator untuk mengonsumsi nilai dari stream secara satu per satu.
+>3. Blocking: Penggunaan await for akan memblokir eksekusi program sampai data tersedia di stream atau stream ditutup.
+
+- Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
 
 
 
