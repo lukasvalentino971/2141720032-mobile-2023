@@ -123,6 +123,29 @@ Jawab :
 <img src="docs/tugas13-06.gif" width=197>
 </center>
 
+### Soal 7
+- Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+
+Jawab : 
+>Pada langkah 13, kita menambahkan method addError() ke kelas Stream. Method ini digunakan untuk menambahkan error ke stream.
+>Pada langkah 15, kita mengedit method addRandomNumber(). Kita mengomentari dua baris kode yang sebelumnya digunakan untuk menambahkan random number ke stream. Kemudian, kita menambahkan kode baru untuk menambahkan error ke stream.
+
+- Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+
+Jawab : 
+```dart
+  // addError() {
+  //   controller.sink.addError('error');
+  // }
+```
+
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+
+Jawab :
+<center>
+<img src="docs/tugas13-06.gif" width=197>
+</center>
+
 
 
 
