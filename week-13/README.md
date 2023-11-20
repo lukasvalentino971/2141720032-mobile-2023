@@ -101,6 +101,28 @@ Jawab :
 
 - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
 
+## Praktikum 2: Stream controllers dan sinks
+
+### Soal 6
+- Jelaskan maksud kode langkah 8 dan 10 tersebut!
+
+Jawab : 
+
+>Langkah 8: Edit initState()
+>Metode initState() dipanggil ketika widget pertama kali dibuat. Dalam langkah ini, kode sedang membuat objek NumberStream dan objek StreamController. StreamController digunakan untuk mengontrol aliran data yang dikeluarkan oleh NumberStream. Aliran kemudian didengarkan, dan metode setState() dipanggil setiap kali peristiwa baru dikeluarkan. Ini memastikan bahwa widget diperbarui setiap kali nomor terbaru diterima.
+
+>Langkah 10: Tambah method addRandomNumber()
+>Metode addRandomNumber() digunakan untuk menambahkan nomor acak ke aliran data. Metode ini pertama-tama membuat objek Random dan kemudian memanggil metode nextInt() untuk mendapatkan nomor acak antara 0 dan 9. Nomor acak kemudian ditambahkan ke aliran menggunakan metode addNumberToSink().
+
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
+
+Jawab :
+<center>
+<img src="docs/tugas13-06.gif" width=197>
+</center>
+
 
 
 
