@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ColorStream(
-  Final List(Color) colors = [
+class ColorStream {
+  final List<Color> colors = [
     Colors.blueGrey,
     Colors.amber,
     Colors.deepPurple,
@@ -11,6 +11,14 @@ class ColorStream(
     Colors.indigo,
     Colors.yellow,
     Colors.limeAccent,
-    Colors.orange
+    Colors.orange,
   ];
-);
+
+  Stream<Color> getColors() async* {
+    await for (int t
+        in Stream.periodic(const Duration(seconds: 1), (int i) => i)) {
+      int index = t % colors.length;
+      yield colors[index];
+    }
+  }
+}
