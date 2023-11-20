@@ -74,6 +74,16 @@ Jawab :
 
 - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
 
+### Soal 4
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+Jawab :
+<center>
+<img src="docs/tugas13-04.gif" width=197>
+</center>
+
+- Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+
 
 
 

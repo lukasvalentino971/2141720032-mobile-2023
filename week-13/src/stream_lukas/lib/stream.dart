@@ -15,10 +15,9 @@ class ColorStream {
   ];
 
   Stream<Color> getColors() async* {
-    await for (int t
-        in Stream.periodic(const Duration(seconds: 1), (int i) => i)) {
+    yield* Stream.periodic(const Duration(seconds: 1), (int t) {
       int index = t % colors.length;
-      yield colors[index];
-    }
+      return colors[index];
+    });
   }
 }
