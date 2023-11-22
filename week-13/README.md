@@ -169,6 +169,28 @@ Jawab :
 
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
+### Soal 9
+- Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+
+Jawab : 
+>Langkah 2
+>Pada langkah ini, kita menambahkan kode untuk membuat objek NumberStream dan NumberStreamController. Objek NumberStream akan digunakan untuk menghasilkan stream integer secara acak. Objek NumberStreamController akan digunakan untuk mengontrol stream tersebut.
+
+>Langkah 6
+>Pada langkah ini, kita menambahkan kode untuk membatalkan subscription di dispose(). Subscription ini harus dibatalkan untuk mencegah memory leak.
+
+>Langkah 8
+>Pada langkah ini, kita menambahkan kode untuk memeriksa apakah stream telah ditutup sebelum menambahkan data ke stream. Jika stream telah ditutup, kita akan mengubah nilai variabel lastNumber dengan nilai -1.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+Jawab :
+<center>
+<img src="docs/tugas13-09.gif" width=197>
+</center>
+
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+
 
 
 
