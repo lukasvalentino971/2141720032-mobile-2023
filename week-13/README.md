@@ -196,7 +196,7 @@ Jawab :
 
 
 <center>
-<img src="docs/tugas13-09.gif" width=197>
+<img src="docs/tugas13-10.jpg" width=197>
 </center>
 
 Jawab :
