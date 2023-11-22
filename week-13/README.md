@@ -147,6 +147,29 @@ Jawab :
 </center>
 
 
+### Soal 8
+- Jelaskan maksud kode langkah 1-3 tersebut!
+
+Jawab : 
+>Langkah 1
+>Pada langkah ini, kita menambahkan variabel baru bernama transformer di dalam class _StreamHomePageState. Variabel ini akan digunakan untuk menyimpan objek StreamTransformer.
+
+>Langkah 2
+>Pada langkah ini, kita menambahkan kode untuk membuat objek StreamTransformer. Objek ini akan digunakan untuk mengubah data yang diterima dari stream. Dalam kasus ini, kita akan mengubah data integer menjadi integer yang dikalikan dengan 10.
+
+>Langkah 3
+>Pada langkah ini, kita melakukan edit kode di initState(). Kita menambahkan kode untuk menggunakan objek transformer untuk mengubah data yang diterima dari stream.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+Jawab :
+<center>
+<img src="docs/tugas13-08.gif" width=197>
+</center>
+
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
+
+
 
 
 
