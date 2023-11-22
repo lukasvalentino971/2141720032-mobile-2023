@@ -191,6 +191,18 @@ Jawab :
 
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
+### Soal 10
+- Jelaskan mengapa error itu bisa terjadi ?
+
+
+<center>
+<img src="docs/tugas13-09.gif" width=197>
+</center>
+
+Jawab :
+
+>Ketika tombol 'Buat Angka Acak Baru' ditekan, akan muncul dua angka yang identik. Ini terjadi karena objek langganan (subscription) dan subscription2 memanggil suatu aliran (stream) yang menghasilkan nilai berupa peristiwa (angka acak) yang dipisahkan oleh tanda '-'. Apabila tombol 'Hentikan Aliran' ditekan, langganan terhadap aliran akan dihentikan, dan meskipun tombol 'Buat Angka Acak Baru' ditekan, tidak akan ada output baru yang dihasilkan.
+
 
 
 
